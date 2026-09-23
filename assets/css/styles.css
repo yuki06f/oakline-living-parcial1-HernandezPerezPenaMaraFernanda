@@ -346,8 +346,12 @@ section p{
 
 .mini-hero__text .link {
     border-bottom: 2px solid var(--main-text);
+    transition: all 0.3s ease;
 }
 
+.mini-hero__text a:hover {
+    transform: translateX(-5px);
+}
 .review {
     display: flex;
     align-items: center;
@@ -396,6 +400,7 @@ section p{
     height:80%;
     display: flex;
     padding-bottom: 1.5em;
+    font-family: "Montserrat", sans-serif;
 }
 
 .footer__nav {
@@ -436,8 +441,14 @@ section p{
 
 .footer__list h2 {
     margin-bottom: 0.4em;
+    
+    font-family: "Montserrat", sans-serif;
 }
 
 .footer__list .footer__item {
     margin-bottom: 0.4em;
+}
+
+.footer__copyright span {
+    font-size:0.8em;
 }
